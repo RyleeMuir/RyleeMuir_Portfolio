@@ -1,0 +1,97 @@
+/*FONTS*/
+h1, h2, p{
+    font-family: poppins;
+}
+/* HEADER*/
+
+
+/* NAV BAR */
+
+
+/* HOME PAGE*/
+
+
+/* WORK 1*/
+#barOne{
+    padding-top: 140px;
+    padding-left: 30px;
+}
+.divOne{
+    display:flex;
+}
+
+.divTwo{
+    display:flex;
+    flex-direction: column;
+    padding-top: 200px; 
+}
+/* WORK 2*/
+#barOneA{
+    padding-top: 140px;
+    padding-left: 30px;
+    padding-right: 50px;
+}
+.divOneA{
+    display:flex;
+    padding-left: 10px;
+   
+}
+
+.divTwoA{
+    display:flex;
+    flex-direction: column;
+    padding-top: 200px; 
+    padding-left: 30px;
+}
+/* WORK 3*/
+#barOneB{
+    padding-top: 140px;
+    padding-left: 30px;
+}
+.divOneB{
+    display:flex;
+}
+
+.divTwoB{
+    display:flex;
+    flex-direction: column;
+    padding-top: 200px; 
+}
+/* WORK 4*/
+
+/* ABOUT ME */
+
+#aboutMe{
+    padding-left: 25px;
+    color: #025159;
+}
+#abt_barOne{
+    padding-right: 30px;
+    padding-left: 20px;
+}
+.flexAbout_one{
+    display:flex;
+}
+
+.flexAbout_two{
+    display:flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-right: 50px;
+}
+
+
+#me_paragraph{
+    display:flex;
+   
+}
+/*CONTACT*/
+
+#lastFlex{
+    display: flex;
+  
+}
+#email, #linkedIn{
+    padding-left: 300px;
+    padding-right: 300px;
+}
