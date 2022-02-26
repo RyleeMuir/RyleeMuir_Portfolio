@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 /*FONTS*/
 h1, h2, p{
     font-family: poppins;
@@ -6,12 +9,60 @@ h1, h2, p{
 
 
 /* NAV BAR */
+.nav_contain{
+    display: flex;
+    flex-direction: column;
+    padding-top: 150px;
+    position:fixed;
+    align-items: flex-end;
+    padding-left: 1300px;
+   
+ }
+  
+ #home{
+    position: sticky;
+    border: none;
+    background: none;
+    padding-top: 20px;
+    font-family: poppins;
+    border: none;
 
+ }
+  
+  
+ #work{
+    position: sticky;
+    border: none;
+    background: none;
+    color:black;
+    text-decoration: none;
+    
+ }
+
+ #but_col, #contact_style, #about_style, #work_style{
+     border: none;
+     font-family: poppins;
+     background-color: white;
+     font-size: 30px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+ }
 
 /* HOME PAGE*/
 
 
 /* WORK 1*/
+#myWork{
+    color:#025159
+}
+
+#name_home{
+    color:#025159
+}
+#par_one{
+    padding-top: 10px;
+    padding-bottom:200px;
+}
 #barOne{
     padding-top: 140px;
     padding-left: 30px;
@@ -60,33 +111,102 @@ h1, h2, p{
 /* WORK 4*/
 
 /* ABOUT ME */
-
+#who{
+    color:#025159;
+    padding-right: 5px;
+}
+#i{
+    color:#025159;
+}
+#am{
+    color:#025159;
+}
 #aboutMe{
     padding-left: 25px;
     color: #025159;
 }
 #abt_barOne{
+    padding-top: 2px;
     padding-right: 30px;
     padding-left: 20px;
+}
+#hobbies{
+    color:#025159;
+}
+
+.blu{
+    border:none;
+    background:white;
+    font-family: poppins;
+    padding-top: 11px;
+}
+
+
+#mySkills{
+    color:#025159;
+    padding-top: 20px;
 }
 .flexAbout_one{
     display:flex;
 }
-
-.flexAbout_two{
+.flexAbout_twoo{
     display:flex;
     flex-direction: column;
     padding-left: 30px;
-    padding-right: 50px;
+}
+.flexAbout_two{
+    display:flex;
+    padding-left: 0px;
+    padding-right: 20px;
+    padding-top: 100px;
 }
 
-
+#me_paragraphh{
+    padding-bottom: 20px;
+}
 #me_paragraph{
     display:flex;
-   
+   flex-direction: column;
+   padding-right: 120px;
+}
+
+#barAbout_two{
+    padding-top: 90px;
+    padding-right: 30px;
+    padding-left:20px;
+}
+.flexAbout_two{
+    display:flex;
+}
+#lastAbout_flex{
+    display:flex;
+    flex-direction: column;
+    padding-top: 130px;
+    
+}
+
+.lst_flx{
+    display:flex;
+    flex-direction: column;
+}
+
+#profPic{
+    padding-top: 90px;
+    padding-right: 30px;
 }
 /*CONTACT*/
+#contactt{
+    color:#025159;
+    padding-top: 200px;
+    padding-bottom:100px;
+}
 
+#thanks{
+    padding-bottom: 100px;
+    padding-right: 40px;
+    padding-left: 20px;
+    
+}
 #lastFlex{
     display: flex;
   
@@ -94,4 +214,18 @@ h1, h2, p{
 #email, #linkedIn{
     padding-left: 300px;
     padding-right: 300px;
+    padding-bottom: 100px;
+}
+
+.blu{
+    color: #025159;
+}
+
+.flexFlex{
+    display: flex;
+}
+
+.arrow{
+    padding-left: 20px;
+    padding-top: 23px;
 }

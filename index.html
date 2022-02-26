@@ -11,12 +11,19 @@
 
 
 <body>
+    
 <img id="topBar" src="images/Group 10.png" width="100%">
-<h1 style="font-size:5vw;"id="name_home">Rylee Muir</h1>
+
+<div class="nav_contain" id="nav">
+    <a href="#topBar" class="navlit color active " id="home" > <button id="but_col" style="font-size:1.5vw;" class="btn">Home</button></a>
+    <a href="#myWork" class="navlit color" id="work"><button id="work_style" class="btn" style="font-size:1.5vw;"> Work</button></a>
+    <a href="#aboutMe" class="navlit color" id="about"> <button id="about_style" class="btn" style="font-size:1.5vw;">About</button></a>
+    <a href="#contactt" class="navlit color " id="contact"><button id="contact_style" class="btn" style="font-size:1.5vw;"> Contact</button></a>
+ </div>
+
+<h1 style="font-size:5.5vw;"id="name_home">Rylee Muir</h1>
 <h2 style="font-size:3vw;"id="seattle">I am a junior UX/UI designer located in Seattle, WA.</h2>
 <p style="font-size:1.5vw;"id="par_one">I design as a way to advocate for web inclusivity and accessibility. Thank you for you time😊</p>
-
-
 
 <h1 style="font-size:4vw;" id="myWork">My recent work</h1>
 
@@ -25,8 +32,11 @@
     <img id="myMoods_pic" src="./images/mymoods_cspic-01.png" width="30%" >
     <div class="divTwo">
         <h1 style="font-size:2vw;" id="proj_one">Mobile app design</h1>
-        <p style="font-size:1.5vw;" id="projName_one">MyMoods</p>
-        <a><p style="font-size:1.5vw;" id="viewCs_one">View case study</p></a>
+        <p style="font-size:1.5vw;" id="projName_one">MyMoods</p> 
+        <div class="flexFlex">
+        <a href="https://ryleemuir.github.io/MyMoods_caseStudy/" target="_blank" rel="noopener noreferrer" class="blu"><button style="font-size:1.5vw;" id="viewCs_one" class="blu" >View case study</button></a>
+            <img class="arrow" src="images/arrow.jpg" height="30px" width="35px;">
+    </div>
     </div>
 </div>
 
@@ -36,7 +46,10 @@
     <div class="divTwoA">
         <h1 style="font-size:2vw;" id="proj_one">Responsive Redesign</h1>
         <p style="font-size:1.5vw;" id="projName_one">Cottonwood Canyons Foundation</p>
-        <a><p style="font-size:1.5vw;" id="viewCs_one">View case study</p></a>
+        <div class="flexFlex">
+        <a href="https://ryleemuir.github.io/Cottonwood-Canyons-Foundation-CS/" target="_blank" rel="noopener noreferrer" class="blu"><button style="font-size:1.5vw;" id="viewCs_one" class="blu">View case study</button></a>
+        <img class="arrow" src="images/arrow.jpg" height="30px" width="35px;">
+    </div>
     </div>
 </div>
 
@@ -46,7 +59,10 @@
     <div class="divTwoB">
         <h1 style="font-size:2vw;" id="proj_one">Mobile app design</h1>
         <p style="font-size:1.5vw;" id="projName_one">What's Cookin</p>
-        <a><p style="font-size:1.5vw;" id="viewCs_one">View case study</p></a>
+        <div class="flexFlex">
+        <a href="https://ryleemuir.github.io/whatsCookin_cs/" target="_blank" rel="noopener noreferrer" class="blu"><button style="font-size:1.5vw;" id="viewCs_one" class="blu">View case study</button></a>
+        <img class="arrow" src="images/arrow.jpg" height="30px" width="35px;">
+    </div>
     </div>
 </div>
 
@@ -54,18 +70,18 @@
 <h1 style="font-size:4vw;" id="aboutMe">About me</h1>
 
 <div id="me_topdiv" class="flexAbout_one">
-    <img id="abt_barOne" src="images/bar1.png" height="500px" width="6px">
-    <img id="meRio" src="./images/portfoliopic.jpg" height="500px" width=" 450px">
-    <div id="midDiv" class="flexAbout_two">
-        <h1 id="who_iAm">Who I am</h1>
+    <img id="abt_barOne" src="images/bar1.png" height="600px" width="6px">
+    <img id="meRio" src="./images/portfoliopic.jpg" height="600px" width=" 550px">
+    <div id="midDiv" class="flexAbout_twoo">
+        <h1 id="who_iAm"><span id="who">Who</span><span id="i">I </span><span id="am">am</span></h1>
         <p id="me_paragraph">I am a self motivated designer looking for an 
             Environment that inspires growth and
             development. I value my ability to work well with
-            Diverse teams, conduct user research, create
-            Quick and stylish designs, and much more.  </p>
+            diverse teams, conduct user research, create
+            quick and stylish designs, and much more.  </p>
 
             <h1 id="mySkills">My skills</h1>
-            <p id="me_paragraph">
+            <p id="me_paragraphh">
                 <p>- Adobe Creative Cloud & Figma</p>  
                 <p>- Group collaboration</p>
                 <p>- Frontend development</p>
@@ -74,13 +90,29 @@
     </div>
 </div>
 
-<h1 style="font-size:4vw;" id="contact">Contact</h1>
+<div class="flexAbout_two">
+    <img id="barAbout_two" src="images/bar 2.png" height="500px" width="6px">
+    <img id="profPic" src="images/IMG_8271.JPG" height="500px" width="475px">
+    <div id="lastAbout_flex">
+        <h1 id="hobbies" >My hobbies</h1>
+        <p class="lst_flx">
+            <p>- Spending time with my dog, Rio</p>
+            <p>- Baking and decorating cakes</p>
+            <p>- Whitewater rafting</p>
+            <p>- Backpacking</p>
+            <p>- Game nights</p>
+        </p>
+
+    </div>
+</div>
+
+<h1 style="font-size:4vw;" id="contactt">Contact</h1>
 <p style="font-size:2vw;"  id="thanks">Thank you for taking the time to review my portfolio. Please 
     reach out with any questions, critiques, or concepts below. </p>
 
     <div id="lastFlex">
-        <img id="email" src="./images/EM.png" height="100px" width="100px">
-        <img id="linkedIn" src="images/LI.png" height="100px" width="100px">
+        <a href="mailto:ryleemuir.design@gmail.com"><img id="email" src="./images/EM.png" height="100px" width="100px"></a>
+        <a href="https://www.linkedin.com/in/rylee-muir-06b015228/"><img id="linkedIn" src="images/LI.png" height="100px" width="100px"></a>
     </div>
 
 
